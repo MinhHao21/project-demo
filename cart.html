@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Giỏ Hàng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="./css/bootstrappage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link href="./css/flexslider.css" rel="stylesheet" />
+    <script src="./js/jquery-1.7.2.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/superfish.js"></script>
+</head>
+
+<body>
+    <div id="top-bar" class="container">
+        <div class="row">
+            <div class="span4">
+                <form method="POST" class="search_form">
+                    <div class="input-group">
+                        <input type="text" class="search-query form-control input-group" Placeholder="My laptop.">
+                        <span class="input-group-btn">
+								<button class="btn btn-primary rounded-circle btnpro" id="btn-search" type="button">
+									<span class=" fas fa-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="span8">
+                <div class="account pull-right">
+                    <ul class="user-menu">
+                        <li><a href="#">Tài Khoản</a></li>
+                        <li><a href="./cart.html"> Giỏ hàng </a></li>
+                        <li><a href="./checkout.html"> Thanh toán </a></li>
+                        <li><a href="./login.html"> Đăng nhập </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper" class="container">
+        <section class="navbar main-menu">
+            <div class="navbar-inner main-menu">
+                <a href="index.html" class="logo pull-left"><img src="./image/logo3.png" class="title"> </a>
+                <nav id="menu" class="pull-right">
+                    <ul>
+                        <li><a href="#">Hãng sản xuất</a>
+                            <ul>
+                                <li><a href="#">Apple</a></li>
+                                <li><a href="#">Dell</a></li>
+                                <li><a href="#">Asus</a></li>
+                                <li><a href="#">HP</a></li>
+                                <li><a href="#">Acer</a></li>
+                                <li><a href="#">Lenovo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Loại sản phẩm</a>
+                            <ul>
+                                <li><a href="#">Chơi game</a></li>
+                                <li><a href="#">Học tập-văn phòng</a></li>
+                                <li><a href="#">Đồ họa-kỹ thuật</a></li>
+                                <li><a href="#">Cao cấp sang trọng</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Bán chạy nhất</a></li>
+                        <li><a href="#">Sản phẩm mới</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="header_text sub">
+            <img class="pageBanner" src="./image/shopping cart.jpg" alt="New products">
+            <br/>
+            <h4><span>Giỏ Hàng</span></h4>
+        </section>
+        <section class="main-content">
+            <div class="row">
+                <div class="span9">
+                    <h4 class="title"><span class="text"><strong>Giỏ Hàng</strong> Của Bạn </span></h4>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Xóa</th>
+                                <th>Mặt hàng</th>
+                                <th> Tên Sản Phẩm </th>
+                                <th> Số Lượng </th>
+                                <th> Giá Tiền </th>
+                                <th> Tổng </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" value="option1"></td>
+                                <td>
+                                    <a href="#"><img alt="" src="./image/lap_2.jpg"></a>
+                                </td>
+                                <td>Acer Aspire 7 Gaming A715 42G R6ZR R5</td>
+                                <td><input type="text" placeholder="2" class="input-mini"></td>
+                                <td>22.490.000đ</td>
+                                <td>44.980.000đ</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" value="option1"></td>
+                                <td>
+                                    <a href="#"><img alt="" src="./image/lap_7.jpg"></a>
+                                </td>
+                                <td>HP Omen 15 ek0078TX i7</td>
+                                <td><input type="text" placeholder="3" class="input-mini"></td>
+                                <td>56.990.000đ</td>
+                                <td>170.970.000đ</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" value="option1"></td>
+                                <td>
+                                    <a href="#"><img alt="" src="./image/lap_10.jpg"></a>
+                                </td>
+                                <td>MacBook Pro 14 M1 Max 2021 10-core</td>
+                                <td><input type="text" placeholder="10" class="input-mini"></td>
+                                <td>55.000.000đ</td>
+                                <td>550.000.000đ</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td><strong>765.950.000đ</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4> Bạn muốn làm gì tiếp theo? </h4>
+                    <p>Chọn 1 đáp án nếu bạn có mã giảm giá hoặc điểm thưởng mà bạn muốn sử dụng hoặc ước tính chi phí vận chuyển của bạn</p>
+                    <label class="radio">
+							<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+							Sử dụng mã giảm giá
+						</label>
+                    <label class="radio">
+							<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+							Ước lượng chi phí mua hàng &amp; cả thuế
+						</label>
+                    <hr>
+                    <p class="cart-total right">
+                        <strong>Tiền Hàng</strong>: 765.950.000đ<br>
+                        <strong>Thuế môi trường (-50.000)</strong>: 50.000đ<br>
+                        <strong>Thuế GTGT (9.0%)</strong>: 85.105.555đ<br>
+                        <strong> Tổng </strong>: 68.935.500đ<br>
+                    </p>
+                    <hr/>
+                    <p class="buttons center">
+                        <button class="btn" type="button"> Cập Nhật </button>
+                        <button class="btn" type="button"> Tiếp Tục </button>
+                        <button class="btn btn-inverse" type="submit" id="checkout">Thanh Toán</button>
+                    </p>
+                </div>
+                <div class="span3 col">
+                    <div class="block">
+                        <ul class="nav nav-list">
+                            <li class="nav-header">Laptop khác</li>
+                            <li><a href="#">LapTop Dell</a></li>
+                            <li class="active"><a href="#">Laptop Apple</a></li>
+                            <li><a href="#">Laptop ASUS</a></li>
+                            <li><a href="#">Laptop HP  </a></li>
+                            <li><a href="#">Laptop Lenovo  </a></li>
+                            <li><a href="#">LapTop Acer  </a></li>
+                        </ul>
+                        <br/>
+                        <ul class="nav nav-list below">
+                            <li class="nav-header">Loại Laptop</li>
+                            <li><a href="#">Chơi Game</a></li>
+                            <li><a href="#">Tin học - văn phòng</a></li>
+                            <li><a href="#">Đồ họa</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h4 class="title">
+                            <span class="pull-left"><span class="text">Đề xuất</span></span>
+                            <span class="pull-right">
+									<a class="left button" href="#myCarousel" data-slide="prev"></a><a class="right button" href="#myCarousel" data-slide="next"></a>
+								</span>
+                        </h4>
+                        <div id="myCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <ul class="thumbnails listing-products">
+                                        <li class="span3">
+                                            <div class="product-box">
+                                                <span class="sale_tag"></span>
+                                                <a href="#"><img alt="" src="./image/lap_14.jpg"></a><br/>
+                                                <a href="#" class="title">Asus ZenBook UX363EA i7</a><br/>
+                                                <a href="#" class="category">ASUS Laptop</a>
+                                                <p class="price">33.490.000đ</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="thumbnails listing-products">
+                                        <li class="span3">
+                                            <div class="product-box">
+                                                <a href="#"><img alt="" src="./image/lap_15.jpg"></a><br/>
+                                                <a href="#" class="title">Asus ZenBook Flip UX363EA i5</a><br/>
+                                                <a href="#" class="category">ASUS Laptop</a>
+                                                <p class="price">26.990.000đ</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="background-color: #857474;" id="footer-bar">
+            <div class="row">
+                <div class="span3">
+                    <h4>Điều Hướng</h4>
+                    <ul class="nav">
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li><a href="./about.html">Thông tin</a></li>
+                        <li><a href="./contact.html">Liên hệ</a></li>
+                        <li><a href="./cart.html">Giỏ hàng</a></li>
+                        <li><a href="./login.html">Đăng nhập</a></li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h4>My Account</h4>
+                    <ul class="nav">
+                        <li><a href="#">Tài khoản của tôi</a></li>
+                        <li><a href="#">Lịch sử đặt hàng</a></li>
+                        <li><a href="#">Danh sách yêu thích</a></li>
+                    </ul>
+                </div>
+                <div class="span5">
+                    <p class="logo">
+                        <h4>HAH</h4>
+                    </p>
+                    <p style="color: white;">Website chúng tôi chuyên cung cấp các sản phẩm chất lượng có uy tín và mới nhất trên thị trường hiện nay
+                        <br/>Hãy ghé thăm trang web của chúng tôi và đừng bỏ lỡ các sản phẩm mới nhé!</p>
+                    <div style="margin-left: 60px;">
+                        <a href="#" class="button">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </a>
+                        <a href="#" class="button">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="#" class="button">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="copyright">
+            <span>Copyright 2021.</span>
+        </section>
+    </div>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop()) {
+                    $('#backtop').fadeIn();
+                }
+                else {
+                    $('#backtop').fadeOut();
+                }
+            });
+            $("#backtop").click(function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>

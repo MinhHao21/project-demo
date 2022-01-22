@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+        <meta charset="utf-8">
+        <title>Hình thành ý tưởng, thiết kế, triển khai giao diện Website bán máy tính.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/css/all.min.css">
+        <link href="./css/bootstrappage.css" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css">
+        <link href="./css/flexslider.css" rel="stylesheet" />
+        <script src="./js/jquery-1.7.2.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="./js/superfish.js"></script>
+    </head>
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					<form method="POST" class="search_form">
+						<div class="input-group">
+							<input type="text" class="search-query form-control input-group" Placeholder="My laptop.">
+							<span class="input-group-btn">
+								<button class="btn btn-primary rounded-circle btnpro" type="button" id="btn-search">
+									<span class="fa fa-search"></span>
+								</button>
+							</span>
+							
+						</div>
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="#">Tài khoản</a></li>
+							<li><a href="cart.html">Giỏ hàng</a></li>
+							<li><a href="checkout.html">Thanh toán</a></li>					
+							<li><a href="login.html">Đăng nhập</a></li>		
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><img src="./image/logo3.png" class="title"></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="#">Hãng sản xuất</a>					
+								<ul>
+									<li><a href="#">Apple</a></li>									
+									<li><a href="#">Dell</a></li>
+									<li><a href="#">Asus</a></li>	
+									<li><a href="#">HP</a></li>									
+									<li><a href="#">Acer</a></li>
+									<li><a href="#">Lenovo</a></li>									
+								</ul>
+							</li>															
+	
+							<li><a href="#">Loại sản phẩm</a>
+								<ul>									
+									<li><a href="#">Chơi game</a></li>
+									<li><a href="#">Học tập-văn phòng</a></li>
+									<li><a href="#">Đồ họa-kỹ thuật</a></li>
+									<li><a href="#">Cao cấp sang trọng</a></li>
+								</ul>
+							
+							<li><a href="#">Bán chạy nhất</a></li>
+							<li><a href="#">Sản phẩm mới</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section  class="homepage-slider" id="home-slider">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<img src="./image/slider_1.jpg" alt="anh bia 1" />
+						<div class="intro">
+							
+						</div>
+					</li>
+					<li>
+						<img src="./image/slider_4.png" alt="anh bia 2" />
+						
+					</li>
+					<li>
+						<img src="./image/slider_5.png" alt="anh bia 3" />
+						
+					</li>
+					<li>
+						<img src="./image/slider_6.png" alt="anh bia 4" />
+						
+					</li>
+					<li>
+						<img src="./image/slider_7.png" alt="anh bia 5" />
+						
+					</li>
+				</ul>
+			</div>			
+			</section>
+			<section class="header_text">
+				Website chúng tôi chuyên cung cấp các sản phẩm chất lượng có uy tín và mới nhất trên thị trường hiện nay
+				<br/>Hãy ghé thăm trang web của chúng tôi và đừng bỏ lỡ các sản phẩm mới nhé!
+			</section>
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">
+
+                        <!-- Các sản phẩm gần đây nhất -->		
+
+						<br/>
+                        <div class="row">
+                            <div class="span12">
+                                <h4 class="title">
+                                    <span class="pull-left"><span class="text"><span class="line"><a href="#"><strong>Các sản phẩm gần đây nhất</strong></a></span></span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-2" data-slide="prev"></a><a class="right button" href="#myCarousel-2" data-slide="next"></a>
+									</span>
+                                </h4>
+                                <div id="myCarousel-2" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="#"><img src="./image/lap_1.jpg" alt="" /></a></p>
+														<a href="#" class="title">Acer Nitro 5 Gaming AN515 57 727J</a><br/>
+														<a href="#" class="category"><p class="price">29.990.000đ</p></a>
+															
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_2.jpg" alt="" /></a></p>
+														<a href="#" class="title">Acer Aspire 7 Gaming A715 42G R6ZR R5</a><br/>
+														<a href="#" class="category"><p class="price">22.490.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_3.jpg" alt="" /></a></p>
+														<a href="#" class="title">Asus VivoBook Pro 15 OLED M3500QC R5</a><br/>
+														<a href="#" class="category"><p class="price">26.590.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_4.jpg" alt="" /></a></p>
+														<a href="#" class="title">Asus ZenBook Duo UX482EA</a><br/>
+														<a href="#" class="category"><p class="price">37.690.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<!-- hàng kế tiếp -->
+
+										<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_17.jpg" alt=""></a>
+														</p>
+														<a href="#" class="title">Lenovo Yoga Slim 7 14ITL05 i7</a><br/>
+														<a href="#" class="category"><p class="price">27.290.000đ</p></a>												
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_21.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">MSI Katana Gaming GF66 11UC i7</a><br/>
+														<a href="#" class="category"><p class="price">29.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_22.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">MSI Gaming GF65 10UE i7</a><br/>
+														<a href="#" class="category"><p class="price">32.490.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_23.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">Acer Predator Triton 300 PT315 53 71DJ i7</a><br/>
+														<a href="#" class="category"><p class="price">45.990.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>											
+									</div>							
+								</div>			
+                            </div>							
+                        </div>
+
+                        <!-- Các sản phẩm bán chạy nhất -->		
+
+                        <br/>
+                        <div class="row">
+                            <div class="span12">
+                                <h4 class="title">
+                                    <span class="pull-left"><span class="text"><span class="line"><a href="#"><strong>Các sản phẩm bán chạy nhất</strong></a></span></span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-3" data-slide="prev"></a>
+										<a class="right button" href="#myCarousel-3" data-slide="next"></a>
+									</span>
+                                </h4>
+                                <div id="myCarousel-3" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="#"><img src="./image/lap_5.jpg" alt="" /></a></p>
+														<a href="#" class="title">Dell Latitude 3520 i7</a><br/>
+														<a href="#" class="category"><p class="price">30.990.000đ</p></a>
+															
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_6.jpg" alt="" /></a></p>
+														<a href="#" class="title">Dell Vostro 5402 i5</a><br/>
+														<a href="#" class="category"><p class="price">18.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_7.jpg" alt="" /></a></p>
+														<a href="#" class="title">HP Omen 15 ek0078TX i7</a><br/>
+														<a href="#" class="category"><p class="price">56.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_8.jpg" alt="" /></a></p>
+														<a href="#" class="title">Asus ZenBook UX425EA i5</a><br/>
+														<a href="#" class="category"><p class="price">23.490.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<!-- hàng kế tiếp -->
+
+										<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_18.jpg" alt=""></a>
+														</p>
+														<a href="#" class="title">Lenovo IdeaPad 5 14ITL05 i7</a><br/>
+														<a href="#" class="category"><p class="price">22.290.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_24.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">HP Envy 13 ba1030TU i7</a><br/>
+														<a href="#" class="category"><p class="price">30.390.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_25.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">HP ZBook Firefly 14 G8 i7</a><br/>
+														<a href="#" class="category"><p class="price">41.590.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_26.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">Lenovo YOGA Slim 7 Carbon 13ITL5 i7</a><br/>
+														<a href="#" class="category"><p class="price">34.290.000đ</p></a>	
+													</div>
+												</li>
+											</ul>
+										</div>																												
+									</div>							
+								</div>			
+                            </div>							
+                        </div>
+
+                        <!-- Các sản phẩm được xem nhiều nhất -->
+
+                        <br/>
+                        <div class="row">
+                            <div class="span12">
+                                <h4 class="title">
+                                    <span class="pull-left">
+										<span class="text">
+											<span class="line"><a href="#"><strong>Các sản phẩm được xem nhiều nhất</strong></a></span>
+										</span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-4" data-slide="prev"></a>
+										<a class="right button" href="#myCarousel-4" data-slide="next"></a>
+									</span>
+                                </h4>
+                                <div id="myCarousel-4" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="#"><img src="./image/lap_9.jpg" alt="" /></a></p>
+														<a href="#" class="title">MacBook Air M1 2020 8-core</a><br/>
+														<a href="#" class="category"><p class="price">31.490.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_10.jpg" alt="" /></a></p>
+														<a href="#" class="title">MacBook Pro 14 M1 Max 2021 10-core</a><br/>
+														<a href="#" class="category"><p class="price">55.000.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_11.jpg" alt="" /></a></p>
+														<a href="#" class="title">Apple MacBook Air M1 2020 7-core</a><br/>
+														<a href="#" class="category"><p class="price">30.590.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_12.jpg" alt="" /></a></p>
+														<a href="#" class="title">Apple MacBook Pro M1 2020 512GB</a><br/>
+														<a href="#" class="category"><p class="price">40.490.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<!-- hàng kế tiếp -->
+
+										<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_top19.jpg" alt=""></a>
+														</p>
+														<a href="#" class="title">MSI Katana GF76 11UC i7</a><br/>
+														<a href="#" class="category"><p class="price">29.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_27.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">Gigabyte Gaming G5 i5</a><br/>
+														<a href="#" class="category"><p class="price">29.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_28.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">Dell Vostro 3400 i7</a><br/>
+														<a href="#" class="category"><p class="price">29.990.000đ</p></a>									
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_29.jpg" alt="" /></a></p>
+														<a href="#" class="title">LG Gram 17 2021 i7 1165G7/16GB</a><br/>
+														<a href="#" class="category"><p class="price">49.390.000đ</p></a>		
+													</div>
+												</li>
+											</ul>
+										</div>														
+									</div>							
+								</div>			
+                            </div>							
+                        </div>	
+                        										
+						<!-- Các sản phẩm khác -->
+
+                        <br/>
+                        <div class="row">
+                            <div class="span12">
+                                <h4 class="title">
+                                    <span class="pull-left">
+										<span class="text">
+											<span class="line"><a href="#"><strong>Các sản phẩm khác</strong></a></span>
+										</span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-5" data-slide="prev"></a>
+										<a class="right button" href="#myCarousel-5" data-slide="next"></a>
+									</span>
+                                </h4>
+                                <div id="myCarousel-5" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="#"><img src="./image/lap_13.jpg" alt="" /></a></p>
+														<a href="#" class="title">Surface Pro 7 Plus i5 1135G7/8GB/128GB</a><br/>
+														<a href="#" class="category"><p class="price">23.890.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_14.jpg" alt="" /></a></p>
+														<a href="#" class="title">Asus ZenBook UX363EA i7 1165G7/16GB/512GB</a><br/>
+														<a href="#" class="category"><p class="price">33.490.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_15.jpg" alt="" /></a></p>
+														<a href="#" class="title">Asus ZenBook Flip UX363EA i5 1135G7/512GB</a><br/>
+														<a href="#" class="category"><p class="price">26.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="#"><img src="./image/lap_16.jpg" alt="" /></a></p>
+														<a href="#" class="title">Surface Pro 7 i5 1035G4/8GB/256GB</a><br/>
+														<a href="#" class="category"><p class="price">25.390.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+										<!-- hàng kế tiếp -->
+
+										<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_20.jpg" alt=""></a>
+														</p>
+														<a href="#" class="title">Asus ZenBook Duo UX482EA i5</a><br/>
+														<a href="#" class="category"><p class="price">32.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_30.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">Lenovo Yoga 9 14ITL5 i7</a><br/>
+														<a href="#" class="category"><p class="price">49.290.000đ</p></a>														
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_31.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">Lenovo ThinkBook 14s Yoga ITL i5</a><br/>
+														<a href="#" class="category"><p class="price">24.790.000đ</p></a>														
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p>
+															<a href="#"><img src="./image/lap_32.jpg" alt="" /></a>
+														</p>
+														<a href="#" class="title">Dell Inspiron 14 5410 i5</a><br/>
+														<a href="#" class="category"><p class="price">27.290.000đ</p></a>														
+													</div>
+												</li>
+											</ul>
+										</div>																
+									</div>							
+								</div>			
+                            </div>							
+                        </div>				
+					</div>
+				</div>
+			</section>
+
+            <!-- Phần kết -->
+
+            <div class="row feature_box">						
+				<div class="span4">
+					<div class="service">
+						<div class="responsive">	
+							<img src="./image/răng cưa.png" alt="" />
+							<h4>THIẾT KẾ <strong>HIỆN ĐẠI</strong></h4>
+							<p>Các sản phẩm được thiết kế theo mẫu mã hiện đại, thời thượng phù hợp với xu hướng người dùng hiện nay.</p>
+						</div>
+					</div>
+				</div>
+				<div class="span4">	
+					<div class="service">
+						<div class="customize">			
+							<img src="./image/túi.png" alt="" />
+							<h4>GIAO HÀNG <strong>MIỄN PHÍ</strong></h4>
+							<p>Sản phầm được giao hàng nhanh, gọn bằng nhiều hình thức nhằm đáp ứng tốt yêu cầu của khách hàng.</p>
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="service">
+						<div class="support">	
+							<img src="./image/img_3.png" alt="" />
+							<h4>PHỤC VỤ <strong>24/7</strong></h4>
+							<p>Khách hàng luôn là ưu tiên hàng đầu và được phục vụ 24/7.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <script src="./js/common.js"></script>
+            <script src="./js/jquery.flexslider-min.js"></script>
+            <script type="text/javascript">
+                $(function() {
+                    $(document).ready(function() {
+                        $('.flexslider').flexslider({
+                            animation: "fade",
+                            slideshowSpeed: 4000,
+                            animationSpeed: 600,
+                            controlNav: false,
+                            directionNav: true,
+                            controlsContainer: ".flex-container"
+                        });
+                    });
+                });
+            </script>
+        </div>
+
+		<div id="backtop">
+			<i class="fas fa-chevron-up"></i>
+		</div>
+
+		<script>
+			$(document).ready(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop()) {
+						$('#backtop').fadeIn();
+					}
+					else {
+						$('#backtop').fadeOut();
+					}
+				});
+				$("#backtop").click(function () {
+					$('html, body').animate({
+						scrollTop: 0
+					}, 1000);
+				});
+			});
+		</script>
+    </body>
+    </html>
